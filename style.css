@@ -1,0 +1,54 @@
+body{
+  font-family:'Muli', sans-serif;
+  margin:0;
+  margin-top:50px; 
+  background-size:cover;
+  background-image:url("https://untalrocambole.com.ar/descar/wallpapers/bang_1360x768.jpg");
+  /*"https://scontent.faep4-1.fna.fbcdn.net/v/t31.0-8/p720x720/27021618_1764155840275945_7257152474105937584_o.jpg?_nc_cat=102&_nc_sid=8024bb&_nc_ohc=7PYULWiYBfEAX-DWjaO&_nc_ht=scontent.faep4-1.fna&_nc_tp=6&oh=87f2b7d355c1f1e8464ddcc6ac7589ef&oe=5EC84EB1")*/ 
+  background-attachment: fixed;
+  overflow: scroll;
+  }
+header{
+  display:flex;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  line-height:50px;
+}
+header *{
+  height:80px;
+  display: inline;
+  color:black;
+  font-size:110%;
+  font-family:'Muli', sans-serif;
+  text-decoration:none;
+}
+header ul{
+  padding:0;
+}
+header li{
+  margin-left:20px;
+}
+section{
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+#redondo .profile-img{
+  width:300px;
+}
+section .musicos-img{
+  height: 200px;
+  border-radius:200px;
+}
+footer{
+  text-align:center;
+  padding:50px;
+}
+section{
+  font-size: 30px;
+}
